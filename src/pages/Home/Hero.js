@@ -10,7 +10,7 @@ import serverLogo from "../../assets/server.png";
 import locationLogo from "../../assets/location.png";
 import global from "../../assets/Huge Global.png";
 import sponsored from "../../assets/Sponsored.png";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/main-logo.png";
 
 import { AiFillCheckCircle } from "react-icons/ai";
 import { AiOutlineDoubleLeft } from "react-icons/ai";
@@ -309,30 +309,30 @@ const Hero = () => {
                   <div className="col-2">
                     <h4 className="mt-2 mb-3">Product</h4>
                     <ul>
-                      <li>Download</li>
-                      <li>Pricing</li>
-                      <li>Locations</li>
-                      <li>Server</li>
-                      <li>Countries</li>
-                      <li>Blog</li>
+                      <li><a href="/">Download</a></li>
+                      <li><a href="/">Pricing</a></li>
+                      <li><a href="/">Locations</a></li>
+                      <li><a href="/">Server</a></li>
+                      <li><a href="/">Countries</a></li>
+                      <li><a href="/">Blog</a></li>
                     </ul>
                   </div>
                   <div className="col-3">
                     <h4 className="mt-2 mb-3">Engage</h4>
                     <ul>
-                      <li>LaslesVPN ?</li>
-                      <li>FAQ</li>
-                      <li>Tutorials</li>
-                      <li>About Us</li>
-                      <li>Privacy Policy</li>
-                      <li>Terms of Service</li>
+                      <li><a href="/">LaslesVPN</a></li>
+                      <li><a href="/">FAQ</a></li>
+                      <li><a href="/">Tutorials</a></li>
+                      <li><a href="/">About Us</a></li>
+                      <li><a href="/">Privacy Policy</a></li>
+                      <li><a href="/">Terms of Service</a></li>
                     </ul>
                   </div>
                   <div className="col-2">
                     <h4 className="mt-2 mb-3">Earn Money</h4>
                     <ul>
-                      <li>Affiliate</li>
-                      <li>Become Partner</li>
+                      <li><a href="/">Affiliate</a></li>
+                      <li><a href="/">Become Partner</a></li>
                     </ul>
                   </div>
                 </>
