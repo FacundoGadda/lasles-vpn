@@ -17,6 +17,10 @@ import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 
+import profile from "../../assets/Ellipse 175.png";
+import profile2 from '../../assets/Ellipse 176.png';
+import profile3 from '../../assets/Ellipse 175-2.png';
+
 import { useMediaQuery } from "react-responsive";
 
 import mock from "./mocked";
@@ -38,7 +42,7 @@ const Hero = () => {
   return (
     <>
       <div className="container">
-        <div className="row d-flex mt-5 align-items-center">
+        <div className="row d-flex mt-3 mt-lg-5 align-items-center">
           <div className="col-md-12 col-lg-6">
             <div className="col-xl-12 col-xxl-10">
               <h1 className="text-center text-sm-start lh-sm">
@@ -251,9 +255,26 @@ const Hero = () => {
             },
           }}
         >
-          <CustomerCard />
-          <CustomerCard />
-          <CustomerCard />
+          <CustomerCard 
+            customer="Viehz Robert"
+            country="Warsaw, Poland"
+            text=" “Wow... I am very happy to use this VPN, it turned out to be more
+            than my expectations and so far there have been no problems.
+            LaslesVPN always the best”."
+            img={profile}
+          />
+          <CustomerCard 
+            customer="Yessica Christy"
+            country="Shanxi, China"
+            text=" “I like it because I like to travel far and still can connect with high speed”."
+            img={profile2}
+          />
+          <CustomerCard 
+            customer="Kim Young Jou"
+            country="Seoul, South Korea"
+            text=" “This is very unusual for my business that currently requires a virtual private network that has high security”."
+            img={profile3}
+          />
         </Carousel>
         <div className="container" style={{ marginBottom: -290 }}>
           <div className="row mt-60">
